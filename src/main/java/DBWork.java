@@ -4,7 +4,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.Statement;
 
-public class J7_DBWork {
+public class DBWork {
 
     //PostgreSql bağlantısı methodu.
     public Connection connect_to_db(String dbName, String user, String password){
